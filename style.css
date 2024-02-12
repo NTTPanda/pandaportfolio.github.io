@@ -75,62 +75,36 @@ header {
 }
 
 
-
-/* changes */
-
-/* .header{
-    position:fixed;
-    top :0;
-    left: 0;
-    width:100%;
-    padding: 20px 10%;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-.logo{
-    position: relative;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: default; 
-    opacity :0; 
-    animation: slideRight 1s ease forwards; 
-}
-
-
-.navbar a{
-display: inline;
-font-size: 25px;
-color: #fff;
-text-decoration: none;
-font-weight: 500;
-margin-left: 36px;
-transition: .3s;
-opacity: 0;
-animation: slideTop .5s ease forwards; 
-animation-delay: calc(.2s *--i);
-}
-
-.navbar a:hover{
-    color:#0ef;  
-} */
 .home {
     position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(panda.jpg) no-repeat;
-
+    background-color: #081b29;
     background-size: cover;
     background-position: left;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
 }
+.panda {
+    height: 300px;
+    width: 300px;
+    /* background-position: left; */
+    position: absolute;
+    background-size: cover;
+    background-position: left;
+    top: 200px;
+    left: 1000px;
+    border-radius: 50%;
+}
+
+.panda:hover{
+    box-shadow: 0 0 5px rgb(3, 44, 74),
+    0 0 25px rgb(3, 44, 74), 0 0 50px rgb(3, 44, 74),
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
 
 .home-content {
     max-width: 600px;
