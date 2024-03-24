@@ -2,28 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
     font-family: 'Poppins', sans-serif;
-
-=======
     font-family: 'poopins', sans-serif;
->>>>>>> e0de04d95bfbfefbe2fb853de27049cdb43b3c7e
+
 }
 
 body {
     color: #ededed;
     background-color: #081b29;
-
-<<<<<<< HEAD
     background-size: cover;
     background-position: center;
 }
 
-
-
 header {
     position: fixed;
-  
     width: 100%;
     top: 0;
     right: 0;
@@ -104,12 +96,11 @@ header {
     /* background: url(panda.jpg) no-repeat; */
     background-color: #081b29;
     background-size: cover;
-=======
+}
 
 /* changes */
 header {
     position: fixed;
-    background-color: ;
     width: 100%;
     top: 0;
     right: 0;
@@ -178,25 +169,13 @@ header {
     height: 100vh;
     background-color: #081b29;
     background-size: cover;
->>>>>>> e0de04d95bfbfefbe2fb853de27049cdb43b3c7e
     background-position: left;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
 }
-.panda {
-    height: 300px;
-    width: 300px;
-    /* background-position: left; */
-    position: absolute;
-    background-size: cover;
-    background-position: left;
-    top: 200px;
-    left: 1000px;
-    border-radius: 50%;
-}
 
-<<<<<<< HEAD
+
  
     .panda {
         position: absolute;
@@ -214,7 +193,7 @@ header {
     0 0 100px cyan, 0 0 200px cyan;
 }
 
-=======
+
 .panda:hover{
     box-shadow: 0 0 5px rgb(3, 44, 74),
     0 0 25px rgb(3, 44, 74), 0 0 50px rgb(3, 44, 74),
@@ -222,7 +201,7 @@ header {
 }
 
 
->>>>>>> e0de04d95bfbfefbe2fb853de27049cdb43b3c7e
+
 .home-content {
     max-width: 600px;
 }
@@ -323,7 +302,7 @@ header {
 }
 
 .btn-box:hover {
-<<<<<<< HEAD
+
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan;
@@ -433,10 +412,6 @@ header {
 
 .cardcontent h1{
     color:#3498db;
-=======
-    box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan;
 }
 
 @keyframes slideRight {
@@ -485,5 +460,4 @@ header {
         transform: translateY(0px);
         opacity: 1;
     }
->>>>>>> e0de04d95bfbfefbe2fb853de27049cdb43b3c7e
 }
