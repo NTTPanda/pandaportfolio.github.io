@@ -3,11 +3,13 @@
 const mobile_nav = document.querySelector(".mobile-navbar-btn");
 const nav_header = document.querySelector(".header");
 const left_side = document.querySelector(".leftside");
+const edu = document.querySelector(".containeredu");
 
 const toggleNavbar = () => {
   // alert("Plz Subscribe ");
   nav_header.classList.toggle("active");
   left_side.classList.toggle("hidden");
+  edu.classList.toggle("hidden");
 };
 
 mobile_nav.addEventListener("click", () => toggleNavbar());
