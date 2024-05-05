@@ -1,24 +1,25 @@
+// nav bar Section
+
+const mobile_nav = document.querySelector(".mobile-navbar-btn");
+const nav_header = document.querySelector(".header");
+const left_side = document.querySelector(".leftside");
+
+const toggleNavbar = () => {
+  // alert("Plz Subscribe ");
+  nav_header.classList.toggle("active");
+  left_side.classList.toggle("hidden");
+};
+
+mobile_nav.addEventListener("click", () => toggleNavbar());
+
+
+
+// home section
 var typed = new Typed('.text', {
-    strings: ["Front-end Developer", "Youtuber", "Badminton Player", "Dancer"],
-    typeSpeed: 100,
-    backDealy:1000,
-    loop:true
+  strings: ["Java Developer", "Youtuber", "Badminton Player", "Dancer"],
+  typeSpeed: 100,
+  backDealy:1000,
+  loop:true
 });
 
 
-// Smooth scrolling for anchor links
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//     anchor.addEventListener('click', function (e) {
-//         e.preventDefault();
-
-//         const targetId = this.getAttribute('href').substring(1);
-//         const target = document.getElementById(targetId);
-
-//         if (target) {
-//             window.scrollTo({
-//                 top: target.offsetTop,
-//                 behavior: 'smooth'
-//             });
-//         }
-//     });
-// });
